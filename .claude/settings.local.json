@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(\"C:\\\\Users\\\\qepti\\\\Documents\\\\D-D_adventure\\\\venv\\\\Scripts\\\\python.exe\" -c \"import streamlit; print\\(f''Streamlit version: {streamlit.__version__}''\\)\")",
+      "Bash(where:*)",
+      "Bash(venvScriptsactivate)",
+      "Bash(\"C:\\\\Users\\\\qepti\\\\Documents\\\\D-D_adventure\\\\venv\\\\Scripts\\\\python\" -c \"import streamlit; print\\(f''Streamlit version: {streamlit.__version__}''\\)\")",
+      "Bash(\"C:\\\\Users\\\\qepti\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\" -m py_compile:*)",
+      "Bash(\"C:\\\\Users\\\\qepti\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\" -c \"import streamlit; from dataclasses import dataclass, field; from enum import Enum; from typing import List; print\\(''All imports successful!''\\)\")",
+      "Bash(ls:*)"
+    ]
+  }
+}
